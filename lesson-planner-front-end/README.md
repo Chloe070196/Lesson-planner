@@ -1,8 +1,4 @@
-# React + Vite
+# Lesson planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Planning: UI and UX
+details (diagrams and other bits of info) can be found at https://miro.com/app/board/uXjVNM9OMxA=/?share_link_id=839647689334
