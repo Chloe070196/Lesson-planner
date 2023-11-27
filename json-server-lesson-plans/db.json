@@ -1,0 +1,214 @@
+{
+  "savedPlans": [
+    {
+      "id": 1,
+      "planFrameworkId": 1,
+      "title": "",
+      "authorId": 1,
+      "mainAim": "",
+      "subsidiaryAims": "",
+      "level": "",
+      "ageGroup": "",
+      "stages": {
+        "stageTypesIds": "",
+        "activities": "",
+        "duration": "",
+        "interactionPatterns": "",
+        "flexi": false
+      }
+    }
+  ],
+  "frameworks": [
+    {
+      "id": 1,
+      "name": "receptive skills lesson",
+      "stageList": [
+        "007-lead-in",
+        "008-pre-teaching",
+        "009-pre-receptive",
+        "010-in-receptive",
+        "011-post-receptive",
+        "012-follow-up"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "text-based presentation",
+      "stageList": [
+        "007-lead-in",
+        "009-pre-receptive",
+        "010-in-receptive",
+        "001-presentation",
+        "002-clarification",
+        "003-cp",
+        "006-teacher-fb",
+        "004-fp"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "task-based: strong end",
+      "stageList": [
+        "007-lead-in",
+        "013-task-completion",
+        "006-teacher-fb",
+        "013-task-completion",
+        "002-clarification",
+        "003-cp",
+        "004-fp",
+        "013-task-completion"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "task-based: weak end",
+      "stageList": [
+        "007-lead-in",
+        "001-presentation",
+        "002-clarification",
+        "003-cp",
+        "004-fp",
+        "013-task-completion",
+        "006-teacher-fb",
+        "013-task-completion"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "test-teach-test",
+      "stageList": [
+        "007-lead-in",
+        "014-test",
+        "002-clarification",
+        "003-cp",
+        "006-teacher-fb",
+        "004-fp"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "context-based presentation",
+      "stageList": []
+    },
+    {
+      "id": 1,
+      "name": "process writing",
+      "stageList": []
+    },
+    {
+      "id": 1,
+      "name": "text-based presentation",
+      "stageList": []
+    },
+    {
+      "id": 1,
+      "name": "product-oriented writing",
+      "stageList": []
+    },
+    {
+      "id": 1,
+      "name": "listening skills: top down",
+      "stageList": []
+    }
+  ],
+  "stageTypes": [
+    {
+      "id": "001-presentation",
+      "name": "presentation",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "002-clarification",
+      "name": "language clarification (MFPA)",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "003-cp",
+      "name": "controlled practice",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "004-fp",
+      "name": "freer practice",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "005-peer-fb",
+      "name": "peer-driven feedback",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "006-teacher-fb",
+      "name": "teacher-driven feedback",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "007-lead-in",
+      "name": "lead-in",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "008-pre-teaching",
+      "name": "pre-teaching blocking language",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "009-pre-receptive",
+      "name": "pre-receptive-skill",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "010-in-receptive",
+      "name": "in-receptive-skill",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "011-post-receptive",
+      "name": "post-receptive-skill",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "012-follow-up",
+      "name": "follow-up",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "013-task-completion",
+      "name": "task-completion",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    },
+    {
+      "id": "014-test",
+      "name": "test",
+      "aim": "",
+      "fluency": false,
+      "accuracy": false
+    }
+  ]
+}

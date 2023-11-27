@@ -1,0 +1,1 @@
+A mock db with some lesson plan framework and stages to use as dummy while developping the front-end of the app, seeing as there is no API with the type of info needed
