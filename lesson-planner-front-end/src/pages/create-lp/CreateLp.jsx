@@ -2,25 +2,34 @@ import StageCardFrom from "./StageCardForm";
 import { lessonFrameworks } from "../../services/api-requests";
 
 function CreateLp() {
+  // to be moved into a helpers folder
+  const checkIfLoaded = () => {
+    if (!lessonFrameworks) {
+      return <p>loading...</p>;
+    }
+    if (lessonFrameworks) {
+      return (
+        <select>
+          {lessonFrameworks.map((framework) => (
+            <option key={"create-lp" + framework.id}>{framework.name}</option>
+          ))}
+        </select>
+      );
+    }
+  };
+
   return (
-    // {if(!lessonFrameworks){return(<p>loading...</p>)}}
     <>
       <aside>
         <div id="selected-framework">
           <h3>Framework:</h3>
-          <select>
-            {/* <option>none</option> */}
-            {lessonFrameworks.map((framework) => (
-              <option key={"create-lp" + framework.id}>{framework.name}</option>
-            ))}
-          </select>
+          {checkIfLoaded()}
         </div>
       </aside>
       <section>
         <StageCardFrom />
       </section>
     </>
-            
   );
 }
 

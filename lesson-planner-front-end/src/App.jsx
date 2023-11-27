@@ -6,9 +6,6 @@ import { lessonFrameworks, lessonStages } from './services/api-requests'
 
 function App() {
 
-  lessonFrameworks &&console.log(lessonFrameworks)
-  lessonStages && console.log(lessonStages)
-
 
   return (
     <>
@@ -20,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />}></Route>
         <Route path="/view" element={<ViewCurrentLp />}></Route>
-        <Route path="/create" element={<CreateLp />}></Route>
+        <Route path="/create" element={<CreateLp  lessonFrameworks={lessonFrameworks} lessonStages={lessonStages}/>}></Route>
       </Routes>
     </>
   )

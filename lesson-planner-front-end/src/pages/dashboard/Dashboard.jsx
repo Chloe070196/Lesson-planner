@@ -1,4 +1,4 @@
-function Dashboard() {
+function Dashboard({}) {
 
     return (
       <>
