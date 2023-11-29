@@ -1,7 +1,7 @@
 import {Routes, Route, Link} from 'react-router-dom'
 import './App.css'
 import { ViewCurrentLp, Dashboard, CreateLp } from './pages'
-import { lessonFrameworks, lessonStages } from './services/api-requests'
+import { lessonStages } from './services/api-requests'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />}></Route>
         <Route path="/view" element={<ViewCurrentLp />}></Route>
-        <Route path="/create" element={<CreateLp  lessonFrameworks={lessonFrameworks} lessonStages={lessonStages}/>}></Route>
+        <Route path="/create" element={<CreateLp lessonStages={lessonStages}/>}></Route>
       </Routes>
     </>
   )

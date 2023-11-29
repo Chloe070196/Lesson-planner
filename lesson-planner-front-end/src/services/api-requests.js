@@ -45,17 +45,15 @@ const editLessonPlan = (updatedLessonPlan) => {
 
 
 
-//lesson frameworks - THIS DATA WILL NOT CHANGE
-let lessonFrameworks 
+//lesson frameworks 
 
-const getLessonFrameworks = () => {
+const getLessonFrameworks = (setRelevantState) => {
     fetch(root + 'frameworks')
     .then(r => r.json())
     .catch(error => console.log(error))
-    .then(data => lessonFrameworks = data)
+    .then(data => setRelevantState(data)) 
 }
 
-getLessonFrameworks()
 
 //lesson stages - THIS DATA WILL NOT CHANGE
 let lessonStages
@@ -69,4 +67,5 @@ const getLessonStages = () => {
 
 getLessonStages()
 
-export {getLessonPlans, deleteLessonPlan, editLessonPlan, addNewLessonPlan, lessonFrameworks, lessonStages}
+export {getLessonPlans, deleteLessonPlan, editLessonPlan, addNewLessonPlan, getLessonFrameworks
+    , lessonStages}

@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "text-based presentation",
       "stageList": [
         "007-lead-in",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "task-based: strong end",
       "stageList": [
         "007-lead-in",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "task-based: weak end",
       "stageList": [
         "007-lead-in",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 5,
       "name": "test-teach-test",
       "stageList": [
         "007-lead-in",
@@ -86,27 +86,27 @@
       ]
     },
     {
-      "id": 1,
+      "id": 6,
       "name": "context-based presentation",
       "stageList": []
     },
     {
-      "id": 1,
+      "id": 7,
       "name": "process writing",
       "stageList": []
     },
     {
-      "id": 1,
+      "id": 8,
       "name": "text-based presentation",
       "stageList": []
     },
     {
-      "id": 1,
+      "id": 9,
       "name": "product-oriented writing",
       "stageList": []
     },
     {
-      "id": 1,
+      "id": 10,
       "name": "listening skills: top down",
       "stageList": []
     }

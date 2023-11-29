@@ -1,29 +1,21 @@
 import StageCardFrom from "./StageCardForm";
-import { lessonFrameworks } from "../../services/api-requests";
+import { getLessonFrameworks } from "../../services/api-requests";
+import { useEffect, useState } from "react";
+import { checkIfLoaded } from "../../helpers/forCreateLP";
 
 function CreateLp() {
-  // to be moved into a helpers folder
-  const checkIfLoaded = () => {
-    if (!lessonFrameworks) {
-      return <p>loading...</p>;
-    }
-    if (lessonFrameworks) {
-      return (
-        <select>
-          {lessonFrameworks.map((framework) => (
-            <option key={"create-lp" + framework.id}>{framework.name}</option>
-          ))}
-        </select>
-      );
-    }
-  };
+  const [lessonFrameworks, setLessonFrameworks] = useState(null);
+
+  useEffect(() => {
+    getLessonFrameworks(setLessonFrameworks);
+  }, []);
 
   return (
     <>
       <aside>
         <div id="selected-framework">
           <h3>Framework:</h3>
-          {checkIfLoaded()}
+          {checkIfLoaded(lessonFrameworks)}
         </div>
       </aside>
       <section>
