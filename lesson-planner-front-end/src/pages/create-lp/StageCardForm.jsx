@@ -2,7 +2,19 @@ function StageCardFrom() {
 
     return (
       <>
-        <section></section>
+        <section>
+          <form className="card centered-content">
+            <label>
+              <input />
+            </label>
+            <label>
+              <input />
+            </label>
+            <label>
+              <textarea/>
+            </label>
+          </form>
+        </section>
       </>
     )
   }
