@@ -18,7 +18,7 @@ function CreateLp() {
           {checkIfLoaded(lessonFrameworks)}
         </div>
       </aside>
-      <section>
+      <section className="main-section">
         <StageCardFrom />
       </section>
     </>
