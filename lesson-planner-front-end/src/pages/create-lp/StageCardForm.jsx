@@ -2,15 +2,17 @@ function StageCardFrom() {
 
     return (
       <>
-        <section>
+        <section  className="centered-content">
           <form className="card centered-content">
-            <label>
+            <h3>Stage: name of current lesson stage</h3>
+
+            <label> Time:
               <input />
             </label>
-            <label>
+            <label> Aim:
               <input />
             </label>
-            <label>
+            <label> Procedure:
               <textarea/>
             </label>
           </form>

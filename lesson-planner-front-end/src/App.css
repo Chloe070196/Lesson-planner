@@ -11,9 +11,19 @@
 --narrow: 4px; 
 --medium: 8px;
 --wide: 16px;
+
+/* typography */
+--main-font-family: 'Courier', 'Courier New','Arial';
 }
 
 
+/* default */
+
+* {
+  position: relative; 
+  font-family: var(--main-font-family);
+  margin: var(--narrow);
+}
 
 /* containers */
 .main-section{
@@ -35,14 +45,21 @@
 .card{
   border-radius: 10px;
   padding: var(--narrow);
-  width: 180px; 
-  height: 250px;
-  border: var(--narowest) solid var(--text)
+  width: 280px; 
+  height: 350px;
+  border: var(--narowest) solid var(--text);
+  font-size: 14px;
 }
 
 .centered-content{
   display: grid;
   place-content: center;
 
+}
+
+.top-right{
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
