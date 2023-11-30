@@ -81,3 +81,61 @@
 h3 {
   display: inline-block;
 }
+
+/* .stacked-content{
+
+} */
+
+.stacked-item10{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.stacked-item9{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+.stacked-item8{
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.stacked-item7{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.stacked-item6{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.stacked-item5{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.stacked-item4{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.stacked-item3{
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}.stacked-item2{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}.stacked-item1{
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}.stacked-item0{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
