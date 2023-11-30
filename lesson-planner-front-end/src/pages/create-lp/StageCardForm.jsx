@@ -26,19 +26,14 @@ function StageCardFrom() {
 
   const handleChange = (e) => {
     setCard({ ...card, [e.target.name]: e.target.value });
-    console.log("on change", card);
   };
 
   const handleSubmit = (id, e) => {
+    console.log(cardDeck.stages)
     e.preventDefault();
     const updatedStage = card;
 
-    console.log("on submit", card);
-
-    const updatedLessonPlan = cardDeck.stages
-      ? [...cardDeck.stages, updatedStage]
-      : [updatedStage];
-
+    const updatedLessonPlan = cardDeck.stages && {...cardDeck, "stages":[...cardDeck.stages, updatedStage]}
     if (!cardDeck) {
       addNewLessonPlan(updatedLessonPlan);
     }
@@ -103,6 +98,7 @@ function StageCardFrom() {
               className="input-field"
               type="checkbox"
               value={false}
+              name="flexi"
               onChange={(e) => handleChange(e)}
             />
           </label>
