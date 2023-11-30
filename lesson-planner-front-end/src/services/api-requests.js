@@ -8,6 +8,13 @@ const getLessonPlans = () => {
     .then(data => console.log(data))
 }
 
+const getCurrentLessonPlan = (id, setRelevantState) => {
+    fetch(root + `savedPlans/${id}`)
+    .then(r => r.json())
+    .catch(error => console.log(error))
+    .then(data => setRelevantState(data))
+}
+
 const deleteLessonPlan = (id) => {
     fetch(root + `savedPlans/${id}`, {"method": "DELETE"})
     .then(r => r.json())
@@ -29,14 +36,14 @@ const addNewLessonPlan = (newLessonPlan) => {
 }
 
 
-const editLessonPlan = (updatedLessonPlan) => {
+const editLessonPlan = (updatedLessonPlan, id) => {
     const options = {
         "method": "PUT",
         "headers": {"Content-Type":"application/json"}, 
         "body": JSON.stringify(updatedLessonPlan)
     }
 
-    fetch(root + `savedPlans`, options)
+    fetch(root + `savedPlans/${id}`, options)
     .then(r => r.json())
     .catch(error => console.log(error))
     .then(data => console.log(data))
@@ -67,5 +74,5 @@ const getLessonStages = () => {
 
 getLessonStages()
 
-export {getLessonPlans, deleteLessonPlan, editLessonPlan, addNewLessonPlan, getLessonFrameworks
+export {getLessonPlans, getCurrentLessonPlan, deleteLessonPlan, editLessonPlan, addNewLessonPlan, getLessonFrameworks
     , lessonStages}

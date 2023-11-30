@@ -1,24 +1,116 @@
+import { useEffect, useState } from "react";
+import {
+  getCurrentLessonPlan,
+  addNewLessonPlan,
+  editLessonPlan,
+} from "../../services/api-requests";
+
+const INITIAL_CARD = {
+  stageTypesIds: "",
+  stageName: "",
+  duration: "",
+  aim: "",
+  procedure: "",
+  flexi: false,
+  id: "",
+};
+
+// DUMMY LESSON PLAN ID - TO BE REMOVED!!!!!!
+let id = 1;
+
 function StageCardFrom() {
+  const [card, setCard] = useState(INITIAL_CARD);
+  const [cardDeck, setCardDeck] = useState([]);
 
-    return (
-      <>
-        <section  className="centered-content">
-          <form className="card centered-content">
-            <h3>Stage: name of current lesson stage</h3>
+  useEffect(() => setCardDeck(getCurrentLessonPlan(id, setCardDeck)), []);
 
-            <label> Time:
-              <input />
-            </label>
-            <label> Aim:
-              <input />
-            </label>
-            <label> Procedure:
-              <textarea/>
-            </label>
-          </form>
-        </section>
-      </>
-    )
-  }
-  
-  export default StageCardFrom
+  const handleChange = (e) => {
+    setCard({ ...card, [e.target.name]: e.target.value });
+    console.log("on change", card);
+  };
+
+  const handleSubmit = (id, e) => {
+    e.preventDefault();
+    const updatedStage = card;
+
+    console.log("on submit", card);
+
+    const updatedLessonPlan = cardDeck.stages
+      ? [...cardDeck.stages, updatedStage]
+      : [updatedStage];
+
+    if (!cardDeck) {
+      addNewLessonPlan(updatedLessonPlan);
+    }
+
+    if (cardDeck) {
+      editLessonPlan(updatedLessonPlan, id);
+    }
+    getCurrentLessonPlan(id);
+  };
+
+  return (
+    <>
+      <section className="centered-content">
+        <form
+          className="card centered-content"
+          onSubmit={(e) => handleSubmit(1, e)}
+        >
+          <div
+          className="input-container">
+            <h3>Stage: </h3>
+            <input
+              className="input-field"
+              type="text"
+              name="stageName"
+              value={card.stageName}
+              onChange={(e) => handleChange(e)}
+            />
+          </div>
+
+          <label className="input-container">
+            Time:
+            <input
+              className="input-field"
+              type="number"
+              name="duration"
+              value={card.duration}
+              onChange={(e) => handleChange(e)}
+            />
+          </label>
+          <label className="input-container">
+            Aim:
+            <input
+              className="input-field"
+              type="text"
+              name="aim"
+              value={card.aim}
+              onChange={(e) => handleChange(e)}
+            />
+          </label>
+          <label className="input-container">
+            Steps:
+            <textarea
+              className="input-field"
+              name="procedure"
+              value={card.procedure}
+              onChange={(e) => handleChange(e)}
+            />
+          </label>
+          <label className="input-container">
+            Flexi-stage:
+            <input
+              className="input-field"
+              type="checkbox"
+              value={false}
+              onChange={(e) => handleChange(e)}
+            />
+          </label>
+          <button type="submit">add stage</button>
+        </form>
+      </section>
+    </>
+  );
+}
+
+export default StageCardFrom;

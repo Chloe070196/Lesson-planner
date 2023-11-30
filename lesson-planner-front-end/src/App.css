@@ -1,7 +1,7 @@
 :root{
   /* colors */
---background: rgb(249, 240, 220);
---area2: rgb(234, 234, 234);
+--background: rgba(249, 240, 220, 0.932);
+--area2: rgba(228, 226, 226, 0.527);
 --area1: rgb(167, 167, 146);
 --highlight: #798478ff;
 --text: rgb(43, 35, 30);
@@ -49,6 +49,7 @@
   height: 350px;
   border: var(--narowest) solid var(--text);
   font-size: 14px;
+  background-color: var(--background);
 }
 
 .centered-content{
@@ -63,3 +64,20 @@
   right: 5px;
 }
 
+.input-field{
+  display: grid;
+  background-color: var(--area2);
+  width: 1fr;
+  border: 1px solid var(--text);
+  color: var(--text);
+}
+
+.input-container{
+  display: grid;
+  grid-template-columns: 70px 1fr;
+}
+
+
+h3 {
+  display: inline-block;
+}
