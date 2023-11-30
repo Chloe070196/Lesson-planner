@@ -45,7 +45,7 @@ function StageCardFrom({cardDeck, setCardDeck}) {
 
   return (
     <>
-      <section className="centered-content">
+      <section className="centered-content main-column">
         <form
           className="card centered-content"
           onSubmit={(e) => handleSubmit(1, e)}
@@ -91,10 +91,10 @@ function StageCardFrom({cardDeck, setCardDeck}) {
               onChange={(e) => handleChange(e)}
             />
           </label>
-          <label className="input-container">
+          <label className="two-columns centered-content">
             Flexi-stage:
             <input
-              className="input-field"
+              className="checkbox"
               type="checkbox"
               value={false}
               name="flexi"

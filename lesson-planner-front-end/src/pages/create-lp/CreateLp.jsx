@@ -14,12 +14,12 @@ function CreateLp() {
 
   return (
     <>
-      <aside>
+      <section>
         <div id="selected-framework">
           <h3>Framework:</h3>
           {checkIfLoaded(lessonFrameworks)}
         </div>
-      </aside>
+      </section>
       <section className="main-section two-columns centered-content">
         <StageCardFrom cardDeck={cardDeck} setCardDeck={setCardDeck}/>
         <UpdatedCards cardDeck={cardDeck}/>

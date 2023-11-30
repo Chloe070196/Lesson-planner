@@ -1,6 +1,6 @@
 :root{
   /* colors */
---background: rgba(249, 240, 220, 0.932);
+--background: rgba(249, 240, 220, 0.849);
 --area2: rgba(228, 226, 226, 0.527);
 --area1: rgb(167, 167, 146);
 --highlight: #798478ff;
@@ -27,19 +27,20 @@
 
 /* containers */
 .main-section{
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 200px));
-  grid-template-rows: auto; */
   padding: var(--medium);
   background-color: var(--background);
   color: var(--text);
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: auto;
 }
 
 .two-columns{
   display: grid;
   grid-template-columns: repeat(2, 1fr)
+}
+
+.main-column{
+  padding: 10vh 10vw;
 }
 
 .card{
@@ -72,6 +73,11 @@
   color: var(--text);
 }
 
+.checkbox{
+  accent-color: var(--area2);
+  height: 20px;
+}
+
 .input-container{
   display: grid;
   grid-template-columns: 70px 1fr;
@@ -82,60 +88,98 @@ h3 {
   display: inline-block;
 }
 
-/* .stacked-content{
-
-} */
-
-.stacked-item10{
-  position: absolute;
-  top: 0;
-  left: 0;
+.stacked-content{
+  border-radius: 10px;
+  padding: 0;
+  width: 280px; 
+  height: 360px;
 }
 
-.stacked-item9{
+.stacked-item0{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+}
+
+.stacked-item1{
   position: absolute;
   top: 2px;
   left: 2px;
+  margin: 0;
 }
-.stacked-item8{
+
+.stacked-item2{
   position: absolute;
   top: 4px;
   left: 4px;
+  margin: 0;
 }
-.stacked-item7{
+
+.stacked-item3{
   position: absolute;
   top: 6px;
   left: 6px;
+  margin: 0;
 }
-.stacked-item6{
+
+.stacked-item4{
   position: absolute;
   top: 8px;
   left: 8px;
+  margin: 0;
 }
+
 .stacked-item5{
   position: absolute;
   top: 10px;
   left: 10px;
+  margin: 0;
 }
-.stacked-item4{
+
+.stacked-item6{
   position: absolute;
   top: 12px;
   left: 12px;
+  margin: 0;
 }
-.stacked-item3{
+
+.stacked-item7{
   position: absolute;
   top: 14px;
   left: 14px;
-}.stacked-item2{
+  margin: 0;
+}
+.stacked-item8{
   position: absolute;
   top: 16px;
   left: 16px;
-}.stacked-item1{
+  margin: 0;
+}
+.stacked-item9{
   position: absolute;
   top: 18px;
   left: 18px;
-}.stacked-item0{
+  margin: 0;
+}
+.stacked-item10{
   position: absolute;
   top: 20px;
   left: 20px;
+  margin: 0;
+}
+
+
+
+button{
+  margin: 2px 20px;
+  background-color: var(--text);
+}
+
+button:hover {
+ background-color: var(--highlight);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }

@@ -3,7 +3,8 @@ function UpdatedCards({cardDeck}) {
   const lessonStages = cardDeck && cardDeck.stages
   return (
     <>
-      <section className="centered-content stacked-content">
+      <section className="centered-content  main-column">
+        <div className="stacked-content">
         {lessonStages && lessonStages.map((stage, index) => (          
         <div key={stage.stageName + index} className={`card centered-content stacked-item${index}`} >
         <div className="top-right">
@@ -15,6 +16,7 @@ function UpdatedCards({cardDeck}) {
           <h4> Procedure:</h4>
           {stage.procedure}
         </div>))}
+        </div>
       </section>
     </>
   );
