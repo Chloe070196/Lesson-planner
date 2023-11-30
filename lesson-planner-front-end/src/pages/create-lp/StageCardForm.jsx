@@ -18,9 +18,9 @@ const INITIAL_CARD = {
 // DUMMY LESSON PLAN ID - TO BE REMOVED!!!!!!
 let id = 1;
 
-function StageCardFrom() {
+function StageCardFrom({cardDeck, setCardDeck}) {
   const [card, setCard] = useState(INITIAL_CARD);
-  const [cardDeck, setCardDeck] = useState([]);
+
 
   useEffect(() => setCardDeck(getCurrentLessonPlan(id, setCardDeck)), []);
 
@@ -29,7 +29,6 @@ function StageCardFrom() {
   };
 
   const handleSubmit = (id, e) => {
-    console.log(cardDeck.stages)
     e.preventDefault();
     const updatedStage = card;
 

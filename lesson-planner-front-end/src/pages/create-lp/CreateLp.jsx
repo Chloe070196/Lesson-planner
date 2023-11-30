@@ -6,6 +6,7 @@ import UpdatedCards from "./UpdatedCards";
 
 function CreateLp() {
   const [lessonFrameworks, setLessonFrameworks] = useState(null);
+  const [cardDeck, setCardDeck] = useState([]);
 
   useEffect(() => {
     getLessonFrameworks(setLessonFrameworks);
@@ -20,8 +21,8 @@ function CreateLp() {
         </div>
       </aside>
       <section className="main-section two-columns centered-content">
-        <StageCardFrom />
-        <UpdatedCards />
+        <StageCardFrom cardDeck={cardDeck} setCardDeck={setCardDeck}/>
+        <UpdatedCards cardDeck={cardDeck}/>
       </section>
     </>
   );

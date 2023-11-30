@@ -1,25 +1,20 @@
-function UpdatedCards() {
+function UpdatedCards({cardDeck}) {
+
+  const lessonStages = cardDeck.stages
   return (
     <>
-      <section className="centered-content">
-        <div className="card centered-content">
-          <div className="top-right">
+      <section className="centered-content stacked">
+        {lessonStages.map(stage => (          
+        <div key={stage.id} className="card centered-content">
+        <div className="top-right">
             <h4> Time:</h4>
-            <p>00:00</p>
+            <p>{stage.duration}</p>
           </div>
           <h4> Aim:</h4>
-          <p>Lorem ipsum, dolor </p>
+          <p>{stage.aim} </p>
           <h4> Procedure:</h4>
-          <ul>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit</li>
-            <li>Lorem ipsum dolor </li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-              quam.
-            </li>
-          </ul>
-        </div>
+          {stage.procedure}
+        </div>))}
       </section>
     </>
   );
