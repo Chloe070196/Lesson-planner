@@ -1,6 +1,11 @@
+import { useEffect, useState } from "react";
+
 function UpdatedCards({cardDeck}) {
 
-  const lessonStages = cardDeck && cardDeck.stages
+  const [lessonStages, setLessonStages] = useState(null)
+
+  useEffect(() => setLessonStages(cardDeck && cardDeck.stages), [cardDeck])
+
   return (
     <>
       <section className="centered-content  main-column">

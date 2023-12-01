@@ -41,6 +41,7 @@ function StageCardFrom({cardDeck, setCardDeck}) {
       editLessonPlan(updatedLessonPlan, id);
     }
     getCurrentLessonPlan(id, setCardDeck);
+    setCard(INITIAL_CARD)
   };
 
   return (

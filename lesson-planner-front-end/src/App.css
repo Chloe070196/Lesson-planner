@@ -76,9 +76,9 @@
 
 .input-field{
   display: grid;
-  background-color: var(--area2);
+  background-color: rgba(64, 64, 64, 0.34);
   width: 1fr;
-  border: 1px solid var(--text);
+  border: none;
   color: var(--text);
 }
 
