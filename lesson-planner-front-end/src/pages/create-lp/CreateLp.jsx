@@ -1,4 +1,4 @@
-import StageCardFrom from "./StageCardForm";
+import StageCardForm from "./StageCardForm";
 import { getLessonFrameworks } from "../../services/api-requests";
 import { useEffect, useState } from "react";
 import { checkIfLoaded } from "../../helpers/forCreateLP";
@@ -16,12 +16,12 @@ function CreateLp() {
     <>
       <section>
         <div id="selected-framework">
-          <h3>Framework:</h3>
+          <h3 className="white-text">Framework:</h3>
           {checkIfLoaded(lessonFrameworks)}
         </div>
       </section>
       <section className="main-section two-columns centered-content">
-        <StageCardFrom cardDeck={cardDeck} setCardDeck={setCardDeck}/>
+        <StageCardForm cardDeck={cardDeck} setCardDeck={setCardDeck}/>
         <UpdatedCards cardDeck={cardDeck}/>
       </section>
     </>

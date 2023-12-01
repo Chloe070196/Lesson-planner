@@ -64,7 +64,7 @@ function StageCardFrom({cardDeck, setCardDeck}) {
           </div>
 
           <label className="input-container">
-            Time:
+            <h4>Time:</h4>
             <input
               className="input-field"
               type="number"
@@ -74,7 +74,7 @@ function StageCardFrom({cardDeck, setCardDeck}) {
             />
           </label>
           <label className="input-container">
-            Aim:
+            <h4>Aim:</h4>
             <input
               className="input-field"
               type="text"
@@ -84,7 +84,7 @@ function StageCardFrom({cardDeck, setCardDeck}) {
             />
           </label>
           <label className="input-container">
-            Steps:
+            <h4>Steps:</h4>
             <textarea
               className="input-field"
               name="procedure"
@@ -93,7 +93,7 @@ function StageCardFrom({cardDeck, setCardDeck}) {
             />
           </label>
           <label className="two-columns centered-content">
-            Flexi-stage:
+            <h4>Flexi-stage:</h4>
             <input
               className="checkbox"
               type="checkbox"
