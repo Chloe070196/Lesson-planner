@@ -1,6 +1,6 @@
 :root{
   /* colors */
---background: rgba(249, 240, 220, 0.849);
+--background: rgba(249, 240, 220, 0.903);
 --area2: rgba(228, 226, 226, 0.527);
 --area1: rgb(167, 167, 146);
 --highlight: #798478ff;
@@ -43,6 +43,13 @@
   padding: 10vh 10vw;
 }
 
+.grid-3-by-3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: var(--narrow);
+}
+
 .card{
   border-radius: 10px;
   padding: var(--narrow);
@@ -51,12 +58,16 @@
   border: var(--narowest) solid var(--text);
   font-size: 14px;
   background-color: var(--background);
+  color: var(--text);
+}
+
+.card:hover{
+  background-color: rgb(228, 255, 253);
 }
 
 .centered-content{
   display: grid;
   place-content: center;
-
 }
 
 .top-right{

@@ -3,19 +3,413 @@
     {
       "id": 1,
       "planFrameworkId": 1,
+      "title": "Animal and adjectives of descriptions",
+      "authorId": 1,
+      "mainAim": "students can talk about their favourite animals and compare them",
+      "subsidiaryAims": "students can hold a basic, short conversation in small groups, taking turns where appropriate",
+      "level": "A1+",
+      "ageGroup": "6-7 y/o",
+      "stages": [
+        {
+          "stageTypesIds": "",
+          "stageName": "Language focus",
+          "duration": "20",
+          "aim": "for students to built an understanding of the meaning of the words, and connect it to their writen and spoken form",
+          "procedure": "a bunch of games that allow for just that ",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "controlled practice",
+          "duration": "10",
+          "aim": "to consolidate understanding",
+          "procedure": "describe an animal using the adjectives taught\nguess (3 tries)\nget 1 point if correct\nswap roles\nrepeat 8 times",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "freer practice",
+          "duration": "15",
+          "aim": "to consolidate understanding further and expand use",
+          "procedure": "sort through a list of 10 animals by asking peers which they think makes the best pet and why",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "homework (set up)",
+          "duration": "5",
+          "aim": "to ensure sts know what to do at home",
+          "procedure": "tell their group what the HW is\ncome up with 1 question to ask about the HW or the lesson\nshare with/ ask the class",
+          "flexi": "false",
+          "id": ""
+        }
+      ]
+    }, 
+    {
+      "id": 2,
+      "planFrameworkId": 1,
+      "title": "Essay writing - CAE preparation",
+      "authorId": 1,
+      "mainAim": "",
+      "subsidiaryAims": "",
+      "level": "C1+",
+      "ageGroup": "adults",
+      "stages": [
+        {
+          "stageTypesIds": "",
+          "stageName": "Lead-In",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "analysis of the model",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "drafting",
+          "duration": "10",
+          "aim": "to consolidate understanding",
+          "procedure": "describe an animal using the adjectives taught\nguess (3 tries)\nget 1 point if correct\nswap roles\nrepeat 8 times",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "peer correction (focus on essay organisation and coherence)",
+          "duration": "15",
+          "aim": "to consolidate understanding further and expand use",
+          "procedure": "sort through a list of 10 animals by asking peers which they think makes the best pet and why",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "writing",
+          "duration": "5",
+          "aim": "to ensure sts know what to do at home",
+          "procedure": "tell their group what the HW is\ncome up with 1 question to ask about the HW or the lesson\nshare with/ ask the class",
+          "flexi": "false",
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "peer-feedback on task-completiong",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "corrections and final version",
+          "duration": "12",
+          "aim": "test",
+          "procedure": "testing",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "setting HW",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        }
+      ]
+    }, 
+    {
+      "id": 1,
+      "planFrameworkId": 1,
       "title": "",
       "authorId": 1,
       "mainAim": "",
       "subsidiaryAims": "",
       "level": "",
       "ageGroup": "",
-      "stages": {
-        "stageTypesIds": "",
-        "activities": "",
-        "duration": "",
-        "interactionPatterns": "",
-        "flexi": false
-      }
+      "stages": [
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "controlled practice",
+          "duration": "10",
+          "aim": "to consolidate understanding",
+          "procedure": "describe an animal using the adjectives taught\nguess (3 tries)\nget 1 point if correct\nswap roles\nrepeat 8 times",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "freer practice",
+          "duration": "15",
+          "aim": "to consolidate understanding further and expand use",
+          "procedure": "sort through a list of 10 animals by asking peers which they think makes the best pet and why",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "homework (set up)",
+          "duration": "5",
+          "aim": "to ensure sts know what to do at home",
+          "procedure": "tell their group what the HW is\ncome up with 1 question to ask about the HW or the lesson\nshare with/ ask the class",
+          "flexi": "false",
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "test",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "last stage",
+          "duration": "12",
+          "aim": "test",
+          "procedure": "testing",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": "false",
+          "id": ""
+        }
+      ]
+    }, 
+    {
+      "id": 1,
+      "planFrameworkId": 1,
+      "title": "",
+      "authorId": 1,
+      "mainAim": "",
+      "subsidiaryAims": "",
+      "level": "",
+      "ageGroup": "",
+      "stages": [
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "controlled practice",
+          "duration": "10",
+          "aim": "to consolidate understanding",
+          "procedure": "describe an animal using the adjectives taught\nguess (3 tries)\nget 1 point if correct\nswap roles\nrepeat 8 times",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "freer practice",
+          "duration": "15",
+          "aim": "to consolidate understanding further and expand use",
+          "procedure": "sort through a list of 10 animals by asking peers which they think makes the best pet and why",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "homework (set up)",
+          "duration": "5",
+          "aim": "to ensure sts know what to do at home",
+          "procedure": "tell their group what the HW is\ncome up with 1 question to ask about the HW or the lesson\nshare with/ ask the class",
+          "flexi": "false",
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "test",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "last stage",
+          "duration": "12",
+          "aim": "test",
+          "procedure": "testing",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": "false",
+          "id": ""
+        }
+      ]
+    }, 
+    {
+      "id": 1,
+      "planFrameworkId": 1,
+      "title": "",
+      "authorId": 1,
+      "mainAim": "",
+      "subsidiaryAims": "",
+      "level": "",
+      "ageGroup": "",
+      "stages": [
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "controlled practice",
+          "duration": "10",
+          "aim": "to consolidate understanding",
+          "procedure": "describe an animal using the adjectives taught\nguess (3 tries)\nget 1 point if correct\nswap roles\nrepeat 8 times",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "freer practice",
+          "duration": "15",
+          "aim": "to consolidate understanding further and expand use",
+          "procedure": "sort through a list of 10 animals by asking peers which they think makes the best pet and why",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "homework (set up)",
+          "duration": "5",
+          "aim": "to ensure sts know what to do at home",
+          "procedure": "tell their group what the HW is\ncome up with 1 question to ask about the HW or the lesson\nshare with/ ask the class",
+          "flexi": "false",
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "test",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "last stage",
+          "duration": "12",
+          "aim": "test",
+          "procedure": "testing",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": false,
+          "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "",
+          "duration": "",
+          "aim": "",
+          "procedure": "",
+          "flexi": "false",
+          "id": ""
+        }
+      ]
     }
   ],
   "frameworks": [

@@ -1,11 +1,11 @@
 const root = 'http://localhost:3000/'
 
 //lesson plans - THIS DATA CAN BE EDITED BY THE USER
-const getLessonPlans = () => {
+const getLessonPlans = (setRelevantState) => {
     fetch(root + 'savedPlans')
     .then(r => r.json())
     .catch(error => console.log(error))
-    .then(data => console.log(data))
+    .then(data => setRelevantState(data))
 }
 
 const getCurrentLessonPlan = (id, setRelevantState) => {
