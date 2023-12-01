@@ -11,6 +11,7 @@ function UpdatedCards({cardDeck}) {
             <h4> Time:</h4>
             <p>{stage.duration}</p>
           </div>
+          <h3>{stage.stageName.toUpperCase()}</h3>
           <h4> Aim:</h4>
           <p>{stage.aim} </p>
           <h4> Procedure:</h4>

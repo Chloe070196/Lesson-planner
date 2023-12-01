@@ -45,9 +45,18 @@
           "procedure": "tell their group what the HW is\ncome up with 1 question to ask about the HW or the lesson\nshare with/ ask the class",
           "flexi": "false",
           "id": ""
+        },
+        {
+          "stageTypesIds": "",
+          "stageName": "retro",
+          "duration": "10",
+          "aim": "for students to recap what they did and learnt",
+          "procedure": "brainstorm\nshare with your neighbour and select 3 points to highlight\nshare with the class",
+          "flexi": false,
+          "id": ""
         }
       ]
-    }, 
+    },
     {
       "id": 2,
       "planFrameworkId": 1,
@@ -131,7 +140,7 @@
           "id": ""
         }
       ]
-    }, 
+    },
     {
       "id": 1,
       "planFrameworkId": 1,
@@ -224,7 +233,7 @@
           "id": ""
         }
       ]
-    }, 
+    },
     {
       "id": 1,
       "planFrameworkId": 1,
@@ -317,7 +326,7 @@
           "id": ""
         }
       ]
-    }, 
+    },
     {
       "id": 1,
       "planFrameworkId": 1,

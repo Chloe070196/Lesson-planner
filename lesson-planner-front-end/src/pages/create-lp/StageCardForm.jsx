@@ -40,7 +40,7 @@ function StageCardFrom({cardDeck, setCardDeck}) {
     if (cardDeck) {
       editLessonPlan(updatedLessonPlan, id);
     }
-    getCurrentLessonPlan(id);
+    getCurrentLessonPlan(id, setCardDeck);
   };
 
   return (
